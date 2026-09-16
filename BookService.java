@@ -1,20 +1,18 @@
-import com.uzhnu.lab2.entity.Book;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Шар бізнес-логіки для роботи з масивом об'єктів {@link Book}.
+ * Шар бізнес-логіки для роботи з масивом об'єктів Book.
  *
  * <p>Важливо: методи цього класу НЕ виконують жодного виведення в термінал
  * (System.out тощо) - вони лише обробляють дані та повертають результат.
- * Виведенням займається окремий шар інтерфейсу
- * ({@link com.uzhnu.lab2.ui.ConsoleUI}).
+ * Виведенням займається окремий шар інтерфейсу (ConsoleUI).
  *
- * <p>Для роботи з масивами використовується утилітарний клас
- * {@link Arrays} (Arrays.stream, Arrays.sort), а фільтрація виконується
- * через Stream API без явних циклів for/while.
+ * <p>Для роботи з масивами використовується утилітарний клас Arrays
+ * (Arrays.stream, Arrays.sort), а фільтрація виконується через Stream API
+ * без явних циклів for/while.
  */
 public final class BookService {
 
